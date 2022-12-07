@@ -21,31 +21,31 @@ def Jogar_varios_Dados():
     if escolha=="d4":
       for i in range(opcao):
         dado=int(random.randint(1,4))
-        print("O dado {} foi igual a \'{}\'.". format(i+1,dado))
+        print("O dado {} foi igual a: \'{}\'.". format(i+1,dado))
         sum+=dado
         
     elif escolha=="d6":
       for i in range(opcao):
         dado=int(random.randint(1,6))
-        print("O dado {} foi igual a \'{}\'.". format(i+1,dado))
+        print("O dado {} foi igual a: \'{}\'.". format(i+1,dado))
         sum+=dado
         
     elif escolha=="d8":
       for i in range(opcao):
         dado=int(random.randint(1,8))
-        print("O dado {} foi igual a \'{}\'.". format(i+1,dado))
+        print("O dado {} foi igual a: \'{}\'.". format(i+1,dado))
         sum+=dado
         
     elif escolha=="d20":
       for i in range(opcao):
         dado=int(random.randint(1,20))
-        print("O dado {} foi igual a \'{}\'.". format(i+1,dado))
+        print("O dado {} foi igual a: \'{}\'.". format(i+1,dado))
         sum+=dado
         
     elif escolha=="d100":
       for i in range(opcao):
         dado=int(random.randint(1,100))
-        print("O dado {} foi igual a \'{}\'.". format(i+1,dado))
+        print("O dado {} foi igual a: \'{}\'.". format(i+1,dado))
         sum+=dado
         
     else:
@@ -61,23 +61,23 @@ def Jogar_Dado():
     dado=0
     if escolha=="d4":
       dado=int(random.randint(1,4))
-      print("\nResultado do dado foi de \'{}\'". format(dado))
+      print("\nResultado do dado foi de: \'{}\'". format(dado))
   
     elif escolha=="d6":
       dado=int(random.randint(1,6))
-      print("\nResultado do dado foi de \'{}\'". format(dado))
+      print("\nResultado do dado foi de: \'{}\'". format(dado))
 
     elif escolha=="d8":
       dado=int(random.randint(1,8))
-      print("\nResultado do dado foi de \'{}\'". format(dado))
+      print("\nResultado do dado foi de: \'{}\'". format(dado))
 
     elif escolha=="d20":
       dado=int(random.randint(1,20))
-      print("\nResultado do dado foi de \'{}\'". format(dado))
+      print("\nResultado do dado foi de: \'{}\'". format(dado))
 
     elif escolha=="d100":
       dado=int(random.randint(1,100))
-      print("\nResultado do dado foi de \'{}\'". format(dado))
+      print("\nResultado do dado foi de: \'{}\'". format(dado))
 
     else:
       print("\nFora das escolhas padrões!")
