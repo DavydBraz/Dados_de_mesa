@@ -1,5 +1,6 @@
 import random
 
+#funcao menu base
 def Menu():
   print("\n-------------------------------------------------------")
   print("\n Escolha uma das opcoes abaixo:\n")
@@ -85,7 +86,7 @@ def Jogar_Dado():
     print("\nErro de execucao, tente utilizar o programa mais tarde!")
 
     
-    #laco infinito para continuar jogando os dados ate que se digite "n"=nao
+#laco infinito para continuar jogando os dados ate que se digite "n"=nao
 
 while True:
   try:
