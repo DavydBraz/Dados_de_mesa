@@ -3,10 +3,10 @@ import random
 #funcao menu base
 def Menu():
   print("\n-------------------------------------------------------")
-  print("\n Escolha uma das opcoes abaixo:\n")
-  print("1-Jogar um unico dado\n")
-  print("2-Jogar varios dados\n")
-  print("3-Sair\n")
+  print("\nEscolha uma das opcoes abaixo:\n")
+  print("\t1-Jogar um unico dado\n")
+  print("\t2-Jogar varios dados\n")
+  print("\t3-Sair\n")
   print("-------------------------------------------------------\n")
   escolha=int(input("\nDigite qual das opcoes acima deseja escolher: "))
   return escolha
