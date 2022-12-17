@@ -97,6 +97,8 @@ while True:
       Jogar_varios_Dados()
     elif escolha==3:
       print("\nObrigado por utilizar este sistema de dados :)")
+      print("\n----------------------------------------------------")
+      print("\nSistema finalisado!")
       break
     else:
       print("\nNao existe a opcao solicitada, digite uma das opcoes disponiveis")
